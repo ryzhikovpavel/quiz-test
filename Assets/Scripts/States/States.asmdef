@@ -1,0 +1,18 @@
+{
+    "name": "States",
+    "rootNamespace": "",
+    "references": [
+        "GUID:03f91bdd4e407462d89c66201dafefbb",
+        "GUID:4bbb05100fba41d28ffc2f9ff0c04e68",
+        "GUID:35db5e59354f4d94879da810b816f993"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
