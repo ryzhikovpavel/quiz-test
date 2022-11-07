@@ -23,14 +23,14 @@ namespace Dictionary
 
         public string GetWord(int length)
         {
-            int index = GetRepeatedIndexFor(length) + 1;
-            SaveIndexFor(length, index);
+            int index = GetRepeatedIndexFor(length);
+            SaveIndexFor(length, index + 1);
             return _words[length][index];
         }
 
         private int GetRepeatedIndexFor(int length)
         {
-            var index = PlayerPrefs.GetInt($"{DictionaryResourceName}_{length}", -1);
+            var index = PlayerPrefs.GetInt($"{DictionaryResourceName}_{length}", 0);
             if (index >= _words[length].Count) index = 0;
             return index;
         }
